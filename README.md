@@ -58,14 +58,14 @@ This repository contains the backend for the Flight Status and Notifications sys
 
 
 - **Passengers Collection:**
-_id: Unique identifier ,id: Passenger ID ,name: Passenger name ,mobile: Mobile number ,email: Email address ,flight_id: Subscribed flight ID ,date_of_flight: Date of flight ,time_of_flight: Time of flight ,gate: Gate number
+_id: Unique identifier, id: Passenger ID, name: Passenger name, mobile: Mobile number, email: Email address, flight_id: Subscribed flight ID, date_of_flight: Date of flight, time_of_flight: Time of flight, gate: Gate number
 
 
 - **Flight Live Collection:**
-_id: Unique identifier ,flight_id: Flight ID ,time: Scheduled time ,date: Scheduled date ,gate: Gate number ,remark: Current status (e.g., Delayed, On Time, Cancelled) 
+_id: Unique identifier, flight_id: Flight ID, time: Scheduled time, date: Scheduled date, gate: Gate number, remark: Current status (e.g., Delayed, On Time, Cancelled) 
 
 - **Scheduled Flights Collection:**
-_id: Unique identifier ,flight_id: Flight ID ,time: Scheduled time ,date: Scheduled date ,gate: Gate number ,remark: Scheduled status
+_id: Unique identifier, flight_id: Flight ID, time: Scheduled time, date: Scheduled date, gate: Gate number, remark: Scheduled status
 
 ## Environment Variables
 
