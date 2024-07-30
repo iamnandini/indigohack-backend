@@ -71,11 +71,8 @@ _id: Unique identifier, flight_id: Flight ID, time: Scheduled time, date: Schedu
 
 Ensure you have a `.env` file in the root directory with the following variables:
 
-MONGO_URI=mongodb://localhost:27017/
-RABBITMQ_HOST=localhost
-TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_phone_number
+MONGO_URI=mongodb://localhost:27017/ , RABBITMQ_HOST=localhost, 
+TWILIO_ACCOUNT_SID=your_twilio_account_sid, TWILIO_AUTH_TOKEN=your_twilio_auth_token, TWILIO_PHONE_NUMBER=your_twilio_phone_number
 
 ## Link to Backend File 
 [indigohack-frontend](https://github.com/iamnandini/indigohack-frontend)
